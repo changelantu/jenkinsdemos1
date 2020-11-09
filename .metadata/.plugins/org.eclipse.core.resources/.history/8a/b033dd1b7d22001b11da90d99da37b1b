@@ -14,9 +14,5 @@ public class WebController {
 	public String sayHi() {
 		return "Hi world!!!!";
 	}
-	@GetMapping("/welcome")
-	public String sayWelcome() {
-		return "Welcome world!!!!";
-	}
 
 }
