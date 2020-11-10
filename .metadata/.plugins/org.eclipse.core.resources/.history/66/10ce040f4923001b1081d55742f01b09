@@ -12,7 +12,7 @@ public class WebController {
 	}
 	@GetMapping("/hi")
 	public String sayHi() {
-		return "Hi world.....ffom jenkins!!!!";
+		return "Hi world!!!!";
 	}
 	@GetMapping("/welcome")
 	public String sayWelcome() {
